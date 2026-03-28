@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #94a3b8;
+}
+
+.cta a {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background: #0ea5e9;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* CARD SYSTEM */
+.card {
+  background: #1e293b;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card-grid .card {
+  text-align: center;
+}
+
+/* CASE STUDY */
+.case-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.case-section {
+  margin: 10px 0;
+}
+
+.case-card a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #22c55e;
+  text-decoration: none;
+}
+
+/* CONTACT */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+}
